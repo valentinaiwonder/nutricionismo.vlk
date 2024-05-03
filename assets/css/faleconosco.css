@@ -95,6 +95,7 @@ input[type="text"], input[type="email"], input[type="tel"], textarea {
     cursor: pointer;
 }
 
+/* Rodapé fixo */
 footer {
     background-color: #008B8B;
     color: #FFF;
@@ -104,6 +105,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
+/* Fim do rodapé */
 
 
 /* CSS da aba de perfil */
@@ -126,3 +128,4 @@ footer {
     width: 115%;
     height: auto;
 }
+/* Fim do CSS da aba de perfil */
