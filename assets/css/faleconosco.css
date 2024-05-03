@@ -1,6 +1,40 @@
+/* Design do cabeçalho */
+.cabeçalho {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items:center;
+    background-color:blanchedalmond;
+    height: 30vh;
+    gap: 10px;
+    background-color: var(--cor-principal);
+}
+
+.logo {
+    border-radius: 60%;
+    height: 120px;
+    width: 120px;
+}
+
+.palavras {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border:none;
+    background-color: seagreen;
+    color:aliceblue;
+    font-size: larger;
+    font-weight: 700;
+}
+/* Fim do design no cabeçalho */
+
+:root {
+    --textoperfil: black;
+    --altura1: 100px;
+    --textos: #FFF;
+}
+
 body {
     background-color: #2E8B57;
-    color: #FFF;
+    color: var(--textos);
     font-family: Arial, sans-serif;
 }
 
@@ -11,12 +45,24 @@ body {
     margin: 20px;
 }
 
-div h1, h2 {
+div h1 {
     color: #F0FFF0;
+}
+
+.contato {
+    font-style: bold;
 }
 
 p {
     color: #F0FFF0;
+}
+
+.infoclinica {
+    color: var(--textos);
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 form {
@@ -38,9 +84,9 @@ input[type="text"], input[type="email"], input[type="tel"], textarea {
     border: none;
 }
 
-input[type="submit"] {
+.formulario [type="submit"] {
     background-color: #20B2AA;
-    color: #FFF;
+    color:beige;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -55,4 +101,26 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+
+/* CSS da aba de perfil */
+
+.perfil {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.perfil h1 {
+    color: var(--textoperfil);
+}
+
+.legendaregina {
+    color: var(--textoperfil);
+}
+
+.perfil img {
+    width: 115%;
+    height: auto;
 }

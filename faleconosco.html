@@ -5,34 +5,71 @@
     <link rel="stylesheet" type="text/css" href="assets/css/faleconosco.css">
 </head>
 <body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <nav class="cabeçalho">
+            <div class="logonutri">
+            <img class="logo" src="assets/img/nutrivita.jpg"
+            alt="Logo da empresa"/> </div>
+            <a href="index.html"><button class="palavras">home</button>
+            </a>
+            <a href="servico.html"><button class="palavras"> serviços</button>
+            </a>
+            <a href="sobre.html">
+            <button class="palavras"> sobre</button> 
+             </a>
+            </nav>
+        </div>
+    </header>
+    <!-- Fim do cabeçalho -->
+
+    <!-- Título e descrição da aba de mensagem -->
     <div class="container_faleconosco">
-        <h1>Fale Conosco</h1>
+        <h1>Fale Conosco ☏</h1>
         <p>Tem alguma dúvida ou precisa de mais informações? Preencha o formulário abaixo ou use nossos contatos para falar conosco.</p>
 
         <form action="/submit_contact" method="post">
             <label for="name">Nome:</label>
-            <input type="text" id="name" name="name" required>
+            <input class="formulario" type="text" id="name" name="name" required>
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <input class="formulario" type="email" id="email" name="email" required>
             <label for="phone">Telefone:</label>
-            <input type="tel" id="phone" name="phone">
+            <input class="formulario" type="tel" id="phone" name="phone">
             <label for="subject">Assunto:</label>
-            <input type="text" id="subject" name="subject">
+            <input class="formulario" type="text" id="subject" name="subject">
             <label for="message">Mensagem:</label>
-            <textarea id="message" name="message" required></textarea>
+            <textarea class="formulario" id="message" name="message" required></textarea>
             <input type="submit" value="Enviar">
-        </form>
+        </form><br>
+        <br>
+        <br>
+
+        <!-- Perfil -->
+    <section>
+        <div class="perfil">
+            <h1>Dr(a). Regina Borges</h1>
+            <img src="assets/img/regina.jpg" alt="Foto da Dr(a). Nutricionista">
+            <p class="legendaregina">Dr(a). Nutricionista é especialista em nutrição e dietética, com foco na 
+                saúde e bem-estar dos pacientes.</p>
+        </div>
+    </section> <br>
+    <br>
+        <!-- Fim do perfil -->
 
         <h2>Nossos Contatos</h2>
-        <p>Email: info@clinicadenutricionismo.com.br</p>
-        <p>Telefone: (11) 1234-5678</p>
-        <p>Endereço: Rua Exemplo, 123, São Paulo, SP</p>
+    <section class="infoclinica">
+        <p>Email: nutrivita@nutricionismo.org.br</p>
+        <p>WhatsApp: (11)123 456 789</p>
+        <p>Telefone Recepção: (11)3621-9233</p>
+        <p>Endereço: Avenida Marques de São Vicente - 1207, Jardim das Perdizes, São Paulo - SP</p>
+    </section><br>
+        <br>
 
         <div id="map" class="map"></div>
     </div>
     <footer>
-        <p>© 2024 Clínica de Nutricionismo. Todos os direitos reservados.</p>
+        <p>© 2024 Clínica de Nutricionismo Nutrivita. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
-
