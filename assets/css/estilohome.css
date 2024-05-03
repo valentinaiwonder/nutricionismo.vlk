@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root{
+    --vermelho: red;
+    --branco:beige; 
+    --laranjinha: rgb(255, 200, 97);
+    --cor-principal: seagreen;
+    --altura: 100px;
+}
+
+.cabeçalho {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items:center;
+    background-color:blanchedalmond;
+    height: 30vh;
+    gap: 10px;
+    background-color: var(--cor-principal);
+}
+
+.logo {
+    border-radius: 60%;
+    height: 120px;
+    width: 120px;
+}
+
+.palavras {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border:none;
+    background-color: seagreen;
+    color:aliceblue;
+    font-size: larger;
+    font-weight: 700;
+}
