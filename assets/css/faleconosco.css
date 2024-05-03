@@ -61,8 +61,10 @@ p {
     color: var(--textos);
     display: flex;
     justify-content: space-around;
-    padding-left: 10px;
-    padding-right: 10px;
+}
+
+.infoclinica p {
+    flex: 1;
 }
 
 form {
