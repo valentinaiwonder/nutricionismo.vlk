@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root {
+    --cor-principal: seagreen;
+   
+}
+ 
+/* cabeçalho */
+.cabeçalho {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items:center;
+    background-color:blanchedalmond;
+    height: 30vh;
+    gap: 10px;
+    background-color: var(--cor-principal);
+}
+
+.logo {
+    border-radius: 60%;
+    height: 120px;
+    width: 120px;
+}
+
+.palavras {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border:none;
+    background-color: seagreen;
+    color:aliceblue;
+    font-size: larger;
+    font-weight: 700;
+}
+/* end >> cabeçalho */
+
+/* conteudo so site */
+.imgRegina {
+    display: flex;
+    justify-content: end;
+    justify-content: space-around;
+    margin:20px;
+    background-color: beige;
+    font-size: 25px;
+}
+
+.imgRegina img {
+    height: 500px;
+    border-radius: 30px;
+}
+
+.imgRegina p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    background-color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.containerservicos {
+    display: flex;
+    justify-content: space-between;
+    align-items:left;
+    flex-direction: column;
+    gap: 60px;
+    font-size: 50px;
+    background-color: beige;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+    
+}
+
+.containerservicos .div1 {
+    background-color: var(--cor-principal);
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 30px;
+}
+
+.containerservicos .div2 {
+    background-color:var(--cor-principal);
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 30px;
+}
+
+.containerservicos .div3 {
+    background-color: var(--cor-principal);
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 30px;
+}
+
+.containerservicos img {
+    height: 500px;
+    border-radius: 100px;
+}
+/* end >> conteudo do site */
+
+/* rodapé */
+footer {
+    background-color: #008B8B;
+    color: #FFF;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
