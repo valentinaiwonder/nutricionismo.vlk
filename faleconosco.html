@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fale Conosco - Clínica de Nutricionismo</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container_faleconosco">
+        <h1>Fale Conosco</h1>
+        <p>Tem alguma dúvida ou precisa de mais informações? Preencha o formulário abaixo ou use nossos contatos para falar conosco.</p>
+
+        <form action="/submit_contact" method="post">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">Telefone:</label>
+            <input type="tel" id="phone" name="phone">
+            <label for="subject">Assunto:</label>
+            <input type="text" id="subject" name="subject">
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+
+        <h2>Nossos Contatos</h2>
+        <p>Email: info@clinicadenutricionismo.com.br</p>
+        <p>Telefone: (11) 1234-5678</p>
+        <p>Endereço: Rua Exemplo, 123, São Paulo, SP</p>
+
+        <div id="map" class="map"></div>
+    </div>
+    <footer>
+        <p>© 2024 Clínica de Nutricionismo. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+
