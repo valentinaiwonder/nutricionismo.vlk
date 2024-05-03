@@ -87,3 +87,13 @@
     justify-content: space-around;
     align-items: center;
 }
+
+footer {
+    background-color: #008B8B;
+    color: #FFF;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
