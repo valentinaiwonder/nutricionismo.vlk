@@ -1,0 +1,58 @@
+body {
+    background-color: #2E8B57;
+    color: #FFF;
+    font-family: Arial, sans-serif;
+}
+
+.container_faleconosco {
+    background-color: #3CB371;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+div h1, h2 {
+    color: #F0FFF0;
+}
+
+p {
+    color: #F0FFF0;
+}
+
+form {
+    background-color: #66CDAA;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+input[type="submit"] {
+    background-color: #20B2AA;
+    color: #FFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #008B8B;
+    color: #FFF;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
