@@ -4,19 +4,20 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return reder_template('index.html')
+    return render_template('index.html')
 
 
 @app.route('/faleconosco')
 def contato():
-    return reder_template('faleconosco.html')
+    return render_template('faleconosco.html')
 
-    @app.route('/serviço')
-def contato():
+@app.route('/serviço')
+def servico():
     return reder_template('servico.html')
 
-        @app.route('/calculadora')
-def contato():
+
+@app.route('/calculadora')
+def imc():
     return reder_template('calculadora.html')
 
 
@@ -27,9 +28,6 @@ def calcular_imc():
     imc = peso / (altura ** 2)
     print("Seu IMC é: {:.2f}".format(imc))
 
-calcular_imc()
 
-return render_template('index.html', resultado=verificar)
-
-if__name__=='__main__':
+if __name__ == '__main__':
     app.run(debug=True)
