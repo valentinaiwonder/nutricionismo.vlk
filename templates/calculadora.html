@@ -6,6 +6,14 @@
     <title>Calculadora</title>
 </head>
 <body>
-    
+    <h1 class="imc_titulo">Calculadora de IMC índice de massa corporal:</h1>
+    <form action="/resultado" method="post">
+        <label for="peso">Informe o seu peso: </label>
+            <input type="text" id="peso" name="peso" required>
+        <label for="altura">Informe a sua altura: </label>
+            <input type="text" id="altura" name="altura" required>
+        <button type="submit">Verificar</button>
+    </form>
+    <p>Seu IMC é: {{resultado}}</p>
 </body>
 </html>
