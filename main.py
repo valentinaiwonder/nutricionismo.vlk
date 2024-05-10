@@ -11,7 +11,7 @@ def index():
 def contato():
     return render_template('faleconosco.html')
 
-@app.route('/serviço')
+@app.route('/servico')
 def servico():
     return reder_template('servico.html')
 
