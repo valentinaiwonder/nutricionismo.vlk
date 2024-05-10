@@ -13,12 +13,12 @@ def contato():
 
 @app.route('/servico')
 def servico():
-    return reder_template('servico.html')
+    return render_template('servico.html')
 
 
 @app.route('/calculadora')
 def imc():
-    return reder_template('calculadora.html')
+    return render_template('calculadora.html')
 
 
 @app.route('/resultado', methods=['POST'])
