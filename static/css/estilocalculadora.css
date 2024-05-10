@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root{
+    --vermelho: red;
+    --branco:beige; 
+    --laranjinha: rgb(255, 200, 97);
+    --cor-principal: seagreen;
+    --altura: 100px;
+}
+
+.cabeçalho {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items:center;
+    background-color:blanchedalmond;
+    height: 30vh;
+    gap: 10px;
+    background-color: var(--cor-principal);
+}
+
+.logo {
+    border-radius: 60%;
+    height: 120px;
+    width: 120px;
+}
+
+.palavras {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border:none;
+    background-color: seagreen;
+    color:aliceblue;
+    font-size: larger;
+    font-weight: 700px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #008B8B;
+    color: #FFF;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.imc_titulo{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #87efce;
+}
+
+.informacoes-c{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.botao5 {
+    background: seagreen;
+    border-radius: 5px;
+    display: flex;
+    padding: 8px 16px;
+    font-size: 18px;
+    color: #FFF;
+}
+
+.fundo-c{
+    background-color: #cbffe7;
+}
+
+.runner {
+    padding-right: 15px;
+}
+
+

@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" type="text/css" href="static/css/estilocalculadora.css">
 </head>
-<body>
-        <header>
+<body class="fundo-c">
+    <header>
         <nav class="cabeçalho">
             <div class="logonutri">
             <img class="logo" src="static/img/nutrivita.jpg"
@@ -20,15 +21,30 @@
              </a>
             </nav>
         </div>
-        </header>
+    </header>
+
     <h1 class="imc_titulo">Calculadora de IMC índice de massa corporal:</h1>
-    <form action="/resultado" method="post">
+    <form action="/resultado" method="post"> 
+        <br>
+        <br>
+        <br>
+       
+    <div class="informacoes-c">
         <label for="peso">Informe o seu peso: </label>
-            <input type="text" id="peso" name="peso" required>
+            <input class="runner" type="text" id="peso" name="peso" required>
         <label for="altura">Informe a sua altura: </label>
             <input type="text" id="altura" name="altura" required>
-        <button type="submit">Verificar</button>
-    </form>
-    <p>Seu IMC é: {{resultado}}</p>
+        <button class="botao5" type="submit">Verificar</button>
+    </form> 
+        <br>
+        <p>Seu IMC é: {{resultado}}</p>
+    </div>
+
+    <footer>
+        <p>© 2024 Clínica de Nutricionismo Nutrivita. Todos os direitos reservados.</p>
+    </footer>
+    <br>
+    <br>
+    <br>
 </body>
 </html>
