@@ -7,7 +7,7 @@
 :root{
     --vermelho: red;
     --branco:beige; 
-    --laranjinha: rgb(255, 200, 97);
+    --laranjinha: rgb(255, 179, 38);
     --cor-principal: seagreen;
     --altura: 100px;
 }
@@ -22,7 +22,6 @@
     gap: 10px;
     background-color: var(--cor-principal);
 }
-
 .logo {
     border-radius: 60%;
     height: 120px;
@@ -57,28 +56,33 @@
     align-self: end;
     justify-content: right;
     color:white;
-    background-color:rgb(30, 105, 171) ;
-    font-weight: 700px;
+    height: 110px;
+    width: 200px;
+    background-color:rgb(127, 171, 209) ;
+    font-weight: 700;
+    align-self:center;
+
 }
 .consulta {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border:none;
-    background-color: seagreen;
+    background-color: var(--laranjinha);
     color:aliceblue;
     font-size: larger;
     font-weight: 700px;
 }
 .partedoiss {
     border-radius: 10%;
-    height: 500px;
-    width: 550px;
+    height: 520px;
+    width: 570px;
+    background-color: rgb(252, 222, 139);
     justify-content: center;
     text-align: center;
     border-style: none;
 }
 .foto {
     border-radius: 10%;
-    height: 300px;
+    height: 350px;
     width: 350px;
 }
 .apresentacao {
