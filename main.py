@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request
 
-app = Flask(__name__) 
+app = Flask(__name__)
 
 @app.route('/')
 def index():
@@ -22,11 +22,12 @@ def imc():
 
 
 @app.route('/resultado', methods=['POST'])
-def calcular_imc():
-    peso = float(input("Digite seu peso em kg: "))
-    altura = float(input("Digite sua altura em metros: "))
-    imc = peso / (altura ** 2)
-    print("Seu IMC é: {:.2f}".format(imc))
+def resultado():
+    peso = float(request.form["peso"])
+    altura = float(request.form["altura"])
+
+    imc = round(peso / (altura**2), 2)
+    return render_template('calculadora.html', resultado=imc)
 
 
 if __name__ == '__main__':
